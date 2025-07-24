@@ -204,12 +204,12 @@ http://localhost:80
 
 对工程的每个模块作用说明：
 
-| **序号** | **名称**     | **说明**                                                     |
-| -------- | ------------ | ------------------------------------------------------------ |
-| 1        | sky-take-out | maven父工程，统一管理依赖版本，聚合其他子模块                |
-| 2        | sky-common   | 子模块，存放公共类，例如：工具类、常量类、异常类等           |
-| 3        | sky-pojo     | 子模块，存放实体类、VO、DTO等                                |
-| 4        | sky-server   | 子模块，后端服务，存放配置文件、Controller、Service、Mapper等 |
+| **序号** | **名称**          | **说明**                                                     |
+| -------- |-----------------| ------------------------------------------------------------ |
+| 1        | campus-take-out | maven父工程，统一管理依赖版本，聚合其他子模块                |
+| 2        | common      | 子模块，存放公共类，例如：工具类、常量类、异常类等           |
+| 3        | pojo        | 子模块，存放实体类、VO、DTO等                                |
+| 4        | server      | 子模块，后端服务，存放配置文件、Controller、Service、Mapper等 |
 
 对项目整体结构了解后，接下来我们详细分析上述的每个子模块：
 
@@ -247,14 +247,14 @@ http://localhost:80
 
 ![image-20230626004253549](/picture/image-20230626004253549.png)
 
-- 分析sky-server模块的每个包的作用：
+- 分析server模块的每个包的作用：
 
-  | 名称           | 说明             |
-    | -------------- | ---------------- |
-  | config         | 存放配置类       |
-  | controller     | 存放controller类 |
-  | interceptor    | 存放拦截器类     |
-  | mapper         | 存放mapper接口   |
-  | service        | 存放service类    |
-  | SkyApplication | 启动类           |
+  | 名称                | 说明             |
+    |-------------------| ---------------- |
+  | config            | 存放配置类       |
+  | controller        | 存放controller类 |
+  | interceptor       | 存放拦截器类     |
+  | mapper            | 存放mapper接口   |
+  | service           | 存放service类    |
+  | ServerApplication | 启动类           |
 
